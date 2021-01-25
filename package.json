@@ -1,0 +1,25 @@
+{
+  "name": "valu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "esbuild": "^0.8.34",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node build.js",
+    "fmt": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t8/valu.git"
+  },
+  "author": "Tate Berenabum <tate@verto.exchange>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t8/valu/issues"
+  },
+  "homepage": "https://github.com/t8/valu#readme"
+}

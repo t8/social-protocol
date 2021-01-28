@@ -1,6 +1,6 @@
 export interface StateInterface {
   ticker: string;
-  reserve: string;
+  creator: string;
   balances: {
     [addr: string]: number;
   };
@@ -12,7 +12,7 @@ export interface ActionInterface {
 }
 
 export interface InputInterface {
-  function: "mint" | "transfer" | "balance";
+  function: "follow" | "transfer" | "balance";
   target?: string;
   qty?: number;
 }
